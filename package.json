@@ -1,0 +1,28 @@
+{
+	"name": "tms",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"engines": {
+		"yarn": "^1.17.3",
+		"node": ">=18.0.0"
+	},
+	"scripts": {
+		"cms": "tsx --watch ./packages/cms/index.ts",
+		"dev": "cd ./packages/connector && yarn run dev",
+		"present": "presenterm workshop.md --presentation"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.5.6",
+		"tsx": "^3.12.10"
+	},
+	"dependencies": {},
+	"workspaces": [
+		"packages/*"
+	]
+}

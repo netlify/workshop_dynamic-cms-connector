@@ -1,0 +1,14 @@
+{
+	"name": "connector",
+	"version": "0.0.1",
+	"main": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "ntli dev -c"
+	},
+	"dependencies": {
+		"@apidevtools/swagger-parser": "^10.1.0",
+		"@netlify/sdk": "^1.1.5",
+		"typescript": "^5.2.2"
+	}
+}
