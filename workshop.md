@@ -19,13 +19,12 @@ inline_code:
 
 title: Custom CMS Connectors
 sub_title: with the Netlify SDK
-author: Tyler Barnes
 ---
 
 ## Overview
 
-This presentation is to show how to take a dynamic data source like a CMS and
-effortlessly integrate it into Netlify Connect.
+This part of the workshop shows how to take a dynamic data source like a CMS and
+integrate it into Netlify Connect as a developer.
 
 <!-- pause -->
 
@@ -211,8 +210,6 @@ Iterate on the received data and create/update/delete nodes in the Connect DB
 
 - Syncing remote schemas and datasets into a single API is difficult
 without Netlify Connect
-<!-- pause -->
-- There currently are only a handful of fully supported Connectors (more coming soon!)
 <!-- pause -->
 - You can build a Connector for your dynamic data source today, **without breaking a
   sweat**
